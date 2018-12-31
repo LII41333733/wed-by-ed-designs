@@ -85,7 +85,7 @@ $(document).ready(function () {
 
   const $galleryImage = $(`<div class='imageDiv' data-order='${x}' data-toggle='modal' data-target='.bd-example-modal-xl'></div>`);
   const $imgWrap = $(`<div class='img-wrap'></div>`);
-  const $invite = `<img class='wedding-invite' src='./assets/images/invites/Invite${x}.png' alt='wedding-invitation' />`;
+  const $invite = `<img class='wedding-invite' src='./assets/images/Invites/Invite${x}.png' alt='wedding-invitation' />`;
 
   // $galleryImage.css(`background-image`, ``)
   $imgWrap.append($invite)
