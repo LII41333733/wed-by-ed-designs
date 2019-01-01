@@ -5,7 +5,7 @@
 
 ## Introduction
 
-Check out this simple, minimalistic portfolio site for a graphic designer specializing in wedding ivitation designs.
+Check out this simple, minimalistic portfolio site for a graphic designer specializing in wedding invitation designs.
 
 
 ## Proof of Concept
