@@ -24,10 +24,10 @@ I kept it pretty simple here. Used HTML, CSS and a bit of Javascript. Bootstrap 
 ## Screenshots
 
 ### Templates
-![Template Grid](images/screenshot1.png)
+![Template Grid](assets/images/screenshot1.png)
 
 ### Templates Expanded
-![Template with Modal](images/screenshot2.png)
+![Template with Modal](assets/images/screenshot2.png)
 
 
 
