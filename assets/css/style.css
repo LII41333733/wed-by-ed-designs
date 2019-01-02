@@ -180,11 +180,12 @@ max-height: 640px;
 
 }
 
-.modalCont
+
 
 .modal-content {
  width: 65%;
  background: #dce0e3;
+ border: none;
 }
 
 
@@ -310,17 +311,17 @@ a:hover {
 }
 
 .quality {
- width: 50%;
+ width: 55%;
  height: auto;
 margin-top: 10px;
 }
 
 .print-para {
  width: 100% !important;
- padding-right: 150px;
+ padding-right: 50%;
 }
 
-.col-6 {
+.col-md-6, .col-6, .col-md-12 {
  padding: 0;
 }
 
@@ -336,6 +337,6 @@ margin-top: 10px;
 }
 
 .quantities {
-  font-size: 14px;
+  font-size: 12px;
   text-align: right;
 }
