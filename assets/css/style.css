@@ -180,9 +180,13 @@ max-height: 640px;
 
 }
 
+.modalCont
+
 .modal-content {
  width: 65%;
+ background: #dce0e3;
 }
+
 
 
 
