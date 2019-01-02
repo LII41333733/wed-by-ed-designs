@@ -90,7 +90,6 @@ h1 {
 #stage {
  width: 80%;
  height: auto;
- border-radius: 15px;
 }
 
 #stage a {
@@ -98,12 +97,11 @@ h1 {
  width: 80%;
  height: auto;
  left: 18%;
- border-radius: 15px;
  margin-bottom: 100px;
 }
 
 #stage img {
-border-radius: 5px;
+/* border-radius: 5px; */
 }
 
 
