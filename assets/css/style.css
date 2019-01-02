@@ -318,7 +318,7 @@ margin-top: 10px;
 
 .print-para {
  width: 100% !important;
- padding-right: 50%;
+ /* padding-right: 30%; */
 }
 
 .col-md-6, .col-6, .col-md-12 {
