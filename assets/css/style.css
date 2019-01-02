@@ -1,7 +1,12 @@
 @font-face {
- font-family: 'Rockwell-Light';
- src: url(./fonts/Rockwell/RockwellStd-Light.otf);
+ font-family: 'Rockwell';
+ src: url(../fonts/Rockwell/RockwellStd-Light.otf);
  font-weight: 300;
+}
+
+@font-face {
+ font-family: 'Rockwell';
+ src: url(../fonts/Rockwell/RockwellStd.otf);
 }
 
 
@@ -171,7 +176,7 @@ h1 {
 height: auto;
 width: 100%;
 max-width: 850px;
-max-height: 638px;
+max-height: 640px;
 
 }
 
@@ -272,9 +277,8 @@ a:hover {
 
  .ring-invite {
   font-size: 2rem;
-  font-family: 'Rockwell Std';
+  font-family: 'Rockwell';
   font-weight: 300;
-  font-style: normal;
   margin: 80px 0;
 }
 
@@ -289,7 +293,7 @@ a:hover {
 }
 
 .about-me p {
- width: 50%;
+ /* width: 50%; */
  margin: 0 auto;
 }
 
@@ -326,4 +330,9 @@ margin-top: 10px;
 
 .footer {
   margin-bottom: 20px;
+}
+
+.quantities {
+  font-size: 14px;
+  text-align: right;
 }
