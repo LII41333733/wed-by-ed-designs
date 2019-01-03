@@ -262,6 +262,10 @@ a:hover {
  }
 
  .connect {
+  -webkit-padding-after: 0px;
+  -webkit-padding-before: 0px;
+  -webkit-padding-start: 0px;
+  -webkit-padding-end: 0px;
   font-size: 2rem;
   font-family: "Rockwell";
   padding: 1% 0 1% 0;
