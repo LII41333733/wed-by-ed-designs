@@ -332,7 +332,7 @@ margin-top: 10px;
  /* padding-right: 30%; */
 }
 
-.col-md-6, .col-6, .col-md-12 {
+.col-md-6, .col-6, .col-md-12, .col-12 {
  padding: 0;
 }
 
@@ -385,5 +385,17 @@ margin-top: 10px;
 
   .ring-invite {
     font-size: 1.5rem;
+  }
+
+  .options {
+    font-size: 0.9rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 0.9rem;
   }
 }
