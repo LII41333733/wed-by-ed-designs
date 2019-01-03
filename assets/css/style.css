@@ -52,6 +52,7 @@ h1 {
  background-color: white;
  padding: 0;
  margin-bottom: 0;
+ width: 100%;
 }
 
 #jumbotron-image {
@@ -209,7 +210,7 @@ hr {
 /* ROW */
 .row {
  margin: 0;
- background: rgba(255, 255, 255, 0.2);
+ /* background: rgba(255, 255, 255, 0.2); */
 }
 
 /* ARROWS */
@@ -365,5 +366,24 @@ margin-top: 10px;
     margin-left: 0;
     margin-right: 0;
     margin-bottom:0;
+  }
+}
+
+/* @media (min-width: 576px) {
+.container {
+    max-width: 100%;
+} */
+
+@media only screen and (max-width: 991px) {
+  body {
+    /* background-color: lightblue; */
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  .ring-invite {
+    font-size: 1.5rem;
   }
 }
