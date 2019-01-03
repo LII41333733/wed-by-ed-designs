@@ -267,16 +267,15 @@ a:hover {
   -webkit-padding-start: 0px;
   -webkit-padding-end: 0px;
   font-size: 2rem;
-  font-family: "Rockwell";
   padding: 1% 0 1% 0;
   line-height: 1;
   /* letter-spacing: 1px; */
  }
- 
-.fa-inverse {
-  font-family: 'Rockwell';
-  /* padding-top: 6%; */
+
+ .arvo {
+  font-family: 'Arvo', serif;
  }
+
  
 
  /* ABOUT PAGE */
