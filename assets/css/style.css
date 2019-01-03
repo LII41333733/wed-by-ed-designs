@@ -214,11 +214,6 @@ hr {
 
 /* ARROWS */
 
-.fa-inverse {
- font-family: 'Rockwell';
- /* padding-top: 6%; */
-}
-
 .fas {
  font-size: 1.1rem;
 }
@@ -267,11 +262,17 @@ a:hover {
  }
 
  .connect {
-  font-size: 1.8rem;
-  font-family: "Rockwell"
-  /* padding: 2% 0 1.5% 0; */
+  font-size: 2rem;
+  font-family: "Rockwell";
+  padding: 1% 0 1% 0;
   /* letter-spacing: 1px; */
  }
+ 
+.fa-inverse {
+  font-family: 'Rockwell';
+  /* padding-top: 6%; */
+ }
+ 
 
  /* ABOUT PAGE */
 
