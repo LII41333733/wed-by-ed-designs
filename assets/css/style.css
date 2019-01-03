@@ -265,6 +265,7 @@ a:hover {
   font-size: 2rem;
   font-family: "Rockwell";
   padding: 1% 0 1% 0;
+  line-height: 1;
   /* letter-spacing: 1px; */
  }
  
