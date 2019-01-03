@@ -160,7 +160,7 @@ h1 {
  border-radius: 2px;
 }
 
-.wedding-invite {
+.wedding-invite:hover {
  opacity: 0.8;
 }
 
