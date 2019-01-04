@@ -94,6 +94,8 @@ h1 {
 }
 
 
+
+
 /* CONTENT BODY */
 
 .content-body {
@@ -223,7 +225,7 @@ z-index: 1;
 
 /* HR */
 hr {
- background: black;
+  background: #e7e7e7;
 }
 
 /* ROW */
