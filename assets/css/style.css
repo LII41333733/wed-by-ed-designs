@@ -364,7 +364,11 @@ margin-top: 10px;
 
 .quantities {
   font-size: 12px;
-  text-align: right;
+  /* text-align: right; */
+}
+
+.displayedYES {
+  display: none;
 }
 
 @media (max-width: 978px) {
@@ -397,6 +401,10 @@ margin-top: 10px;
   .container {
     max-width: 100%;
     /* min-width: 460px; */
+  }
+
+  .displayedYES {
+    display: block;
   }
 
   .ring-invite {
@@ -451,7 +459,7 @@ margin-top: 10px;
       margin: 4rem;
     }
 
-    .displayed {
+    .displayedNO {
       display: none;
     }
 
