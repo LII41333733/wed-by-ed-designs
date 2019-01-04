@@ -390,6 +390,10 @@ margin-top: 10px;
   display: none;
 }
 
+.getBreak {
+  display: none;
+}
+
 @media (max-width: 978px) {
   .container {
     padding:0;
@@ -543,6 +547,10 @@ margin-top: 10px;
     height: auto;
     left: 5%;
     margin-bottom: 100px;
+}
+
+.getBreak {
+  display: block;
 }
 
 #jumbotron-image {
