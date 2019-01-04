@@ -221,8 +221,8 @@ hr {
 /* ARROWS */
 
 .fas {
-  font-size: 1.6rem;
-  padding: 50px;
+  font-size: 1rem;
+  padding: 10px;
 }
 
 .arrow-right, #rightArrow {
