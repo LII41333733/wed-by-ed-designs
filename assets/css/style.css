@@ -285,7 +285,7 @@ a:hover {
 
 .contact-block {
  min-width: 300px;
- padding: 0 40px;
+ padding: 0 20px;
  }
  
  .mid-block {
@@ -382,7 +382,8 @@ margin-top: 10px;
 
 .quantities {
   font-size: 12px;
-  /* text-align: right; */
+  text-align: right;
+  margin-top: 15px;
 }
 
 .displayedYES {
@@ -450,11 +451,11 @@ margin-top: 10px;
   }
 
   .ring-invite {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .options {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   h2 {
@@ -516,7 +517,11 @@ margin-top: 10px;
 
      .quantities {
       font-size: 8px;
-      margin: 15px 12px 0px 0px !important;
+  }
+
+  .quantities {
+    font-size: 9px;
+    text-align: center;
   }
 
   .print-para {
@@ -541,7 +546,7 @@ margin-top: 10px;
 }
 
 #jumbotron-image {
-  width: 75%;
+  width: 78%;
  }
 
 }
