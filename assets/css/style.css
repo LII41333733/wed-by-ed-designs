@@ -337,7 +337,7 @@ a:hover {
 }
 
 .quality {
- width: 65%;
+ width: 60%;
  height: auto;
 margin-top: 10px;
 }
@@ -470,11 +470,11 @@ margin-top: 10px;
   }
 
   .print-para {
-    font-size: .8rem;
+    font-size: .85rem;
   }
 
   .quality {
-    width: 60%;
+    width: 75%;
   }
 
   #stage a {
@@ -489,10 +489,10 @@ margin-top: 10px;
 @media only screen and (max-width: 600px) {
 
   .print-para {
-    font-size: .7rem;
+    font-size: .64rem;
   }
 
   .quality {
-    width: 75%;
+    width: 70%;
   }
 }
