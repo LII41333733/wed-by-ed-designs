@@ -66,6 +66,14 @@ h1 {
 
 /* NAVBAR */
 
+.mobile-nav {
+  display: none;
+}
+
+.desktop-nav {
+  display: block;
+}
+
 .nav-item {
  color: black;
  text-transform: uppercase;
@@ -77,10 +85,13 @@ h1 {
  text-align: center;
 }
 
-.nav-active {
- font-weight: 700;
+.active {
+ font-weight: 600;
 }
 
+.navbar {
+  padding: 0 !important;
+}
 
 
 /* CONTENT BODY */
@@ -108,6 +119,9 @@ h1 {
  margin-bottom: 100px;
 }
 
+.pointer {
+  cursor: auto;
+}
 
 
 
@@ -132,7 +146,7 @@ h1 {
 .slideshow-image {
  height: auto;
  width: 80%;
- 
+ cursor: pointer;
 } 
 
 
@@ -320,6 +334,7 @@ a:hover {
 
 .contact-header{ 
  font-weight: 600;
+ margin-top: 3rem;
 }
 
 .about-me p {
@@ -328,7 +343,7 @@ a:hover {
 }
 
 .envelopesImg {
- width: 50%;
+ width: 45%;
  height: auto;
 }
 
@@ -337,17 +352,18 @@ a:hover {
 }
 
 .quality {
- width: 60%;
+ width: 55%;
  height: auto;
 margin-top: 10px;
 }
 
 .print-para {
  width: 100% !important;
- /* padding-right: 30%; */
+ padding-right: 25%;
+ font-size: 0.9rem;
 }
 
-.col-md-6, .col-6, .col-md-12, .col-12 {
+.col-md-6, .col-6, .col-md-12, .col-12, .col-7, .col-5 {
  padding: 0;
 }
 
@@ -394,6 +410,8 @@ margin-top: 10px;
 } */
 
 @media only screen and (max-width: 991px) {
+
+
   body {
     /* background-color: lightblue; */
   }
@@ -402,6 +420,28 @@ margin-top: 10px;
     max-width: 100%;
     /* min-width: 460px; */
   }
+
+  .mobile-nav {
+    display: block;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+
+  button:focus {
+    outline: none;
+  }
+
+  #nobreak {
+    display: none;
+  }
+
+  .slideshow-image {
+    height: auto;
+    width: 90%;
+    
+   } 
 
   .displayedYES {
     display: block;
@@ -468,7 +508,7 @@ margin-top: 10px;
     }
 
     .envelopesImg {
-      width: 75%;
+      width: 50%;
       height: auto;
      }
 
@@ -479,28 +519,48 @@ margin-top: 10px;
 
   .print-para {
     font-size: .85rem;
+    padding-right: 21%;
   }
 
   .quality {
-    width: 75%;
+    width: 60%;
+  }
+
+  .contact-header {
+    margin-top: 2rem;
   }
 
   #stage a {
     position: absolute;
     width: 100%;
     height: auto;
-    left: 10%;
+    left: 5%;
     margin-bottom: 100px;
 }
+
+#jumbotron-image {
+  width: 75%;
+ }
+
 }
 
 @media only screen and (max-width: 600px) {
 
   .print-para {
-    font-size: .64rem;
+    font-size: .7rem;
+    padding-right: 5%;
   }
 
   .quality {
+    width: 95%;
+    margin-top: 15px;
+  }
+
+  .envelopesImg {
     width: 70%;
+  }
+
+  #nobreak {
+    display: block;
   }
 }
