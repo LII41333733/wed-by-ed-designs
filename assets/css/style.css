@@ -85,7 +85,7 @@ h1 {
  text-align: center;
 }
 
-.active {
+.active, .nav-active {
  font-weight: 600;
 }
 
