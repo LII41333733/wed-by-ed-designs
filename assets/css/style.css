@@ -108,9 +108,7 @@ h1 {
  margin-bottom: 100px;
 }
 
-#stage img {
-/* border-radius: 5px; */
-}
+
 
 
 #stage a:nth-of-type(1) {
@@ -173,24 +171,31 @@ h1 {
  padding: 0;
 }
 
-
+.modal {
+  padding: 0 !important;
+}
 
 .modalImg {
 height: auto;
 width: 100%;
 max-width: 850px;
+min-width: 850px;
 max-height: 640px;
-
+background: url("/assets/images/packages/Package10.png"); 
+z-index: 1;
 }
 
 
 
 .modal-content {
- width: 65%;
- background: #dce0e3;
- border: none;
+  background: none;
+  border: none;
+  width: none;
 }
 
+.modal-dialog, .modal-content  {
+  pointer-events: auto !important;
+}
 
 
 
@@ -219,16 +224,25 @@ hr {
  font-size: 1.1rem;
 }
 
-.arrow-right {
+.arrow-right, #rightArrow {
  position: absolute;
  top: 50%;
- right: 8%;
+ right: -20%;
+ cursor: pointer;
+ z-index: 5;
 }
 
-.arrow-left {
+.arrow-left, #leftArrow {
  position: absolute;
  top: 50%;
- left: 8%;
+ left: -20%;
+
+ z-index: 5;
+}
+
+#leftArrow, #rightArrow {
+  z-index: 10;
+  cursor: pointer;
 }
 
 a {
@@ -268,7 +282,7 @@ a:hover {
   -webkit-padding-start: 0px;
   -webkit-padding-end: 0px;
   font-size: 2rem;
-  padding: 1% 0 1% 0;
+  padding: 2% 0 2% 0;
   line-height: 1;
   /* letter-spacing: 1px; */
  }
@@ -398,4 +412,74 @@ margin-top: 10px;
   p {
     font-size: 0.9rem;
   }
+
+  #rightArrow {
+    right: 8% !important;
+   }
+   
+   #leftArrow {
+    left: 8% !important;
+   }
+
+   .modalImg {
+     min-width: 50% !important; 
+   }
+
+   .mid-block {
+    border-left: 0px solid black;
+    border-right: 0px solid black;
+    
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      padding: 2% 10%;
+    }
+
+    .contact-block {
+      padding: 0 20%;
+    }
+
+    .connect {
+      font-size: 1.7rem;
+
+    }
+
+    .modal-dialog {
+      margin: 4rem;
+    }
+
+    .displayed {
+      display: none;
+    }
+
+    .designDiv {
+      padding: 0 10%;
+    }
+
+    .envelopesImg {
+      width: 55%;
+      height: auto;
+     }
+
+     .quantities {
+      font-size: 8px;
+      margin: 15px 12px 0px 0px !important;
+  }
+
+  .print-para {
+    font-size: .6rem;
+  }
+
+  .quality {
+    width: 75%;
+  }
+
+  #stage a {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 10%;
+    margin-bottom: 100px;
+}
 }
