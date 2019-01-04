@@ -395,7 +395,7 @@ margin-top: 10px;
 
   .container {
     max-width: 100%;
-    min-width: 460px;
+    /* min-width: 460px; */
   }
 
   .ring-invite {
