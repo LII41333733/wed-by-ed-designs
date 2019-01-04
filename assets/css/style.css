@@ -395,6 +395,7 @@ margin-top: 10px;
 
   .container {
     max-width: 100%;
+    min-width: 460px;
   }
 
   .ring-invite {
@@ -468,11 +469,11 @@ margin-top: 10px;
   }
 
   .print-para {
-    font-size: .6rem;
+    font-size: .8rem;
   }
 
   .quality {
-    width: 75%;
+    width: 60%;
   }
 
   #stage a {
@@ -482,4 +483,15 @@ margin-top: 10px;
     left: 10%;
     margin-bottom: 100px;
 }
+}
+
+@media only screen and (max-width: 600px) {
+
+  .print-para {
+    font-size: .7rem;
+  }
+
+  .quality {
+    width: 75%;
+  }
 }
