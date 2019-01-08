@@ -1,7 +1,7 @@
 @font-face {
  font-family: 'Rockwell';
  src: url(../fonts/Rockwell/RockwellStd-Light.otf);
- font-weight: 300;
+ font-weight: 200;
 }
 
 @font-face {
@@ -324,7 +324,7 @@ a:hover {
  .ring-invite {
   font-size: 2rem;
   font-family: 'Rockwell';
-  font-weight: 300;
+  font-weight: 200;
   margin: 80px 0;
 }
 
