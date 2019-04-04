@@ -1,6 +1,6 @@
 # Wed By Ed - *Wedding Invitation Designs*
 
-[Link to the App](https://lii41333733.github.io/wed-by-ed-designs/)
+[Link to the App](http://wbeinvitations.com)
 
 
 ## Introduction
